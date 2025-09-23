@@ -1,4 +1,4 @@
-import { User } from "./interfaces/user";
+import { User } from "./interfaces/interfaces";
 
 // Using interface in objects
 let user1: User = {
