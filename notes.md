@@ -12,3 +12,16 @@
 
 - To check it locally
 <pre>npx tsc -v</pre>
+
+## How to compile a typescript file?
+- To compile it globally
+<pre>tsc tutorial.ts</pre>
+
+- To check it locally
+<pre>npx tsc tutorial.ts</pre>
+
+After successful compilation, a new compiled js file is generated
+
+## How to execute a compiled js file?
+To execute it
+<pre>node tutorial.ts</pre>
