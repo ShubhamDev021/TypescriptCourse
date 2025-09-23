@@ -1,6 +1,6 @@
 class Person {
-    name: string;
-    age: number;
+    public name: string;
+    private age: number;
 
     constructor(name: string, age: number) {
         this.name = name;
@@ -14,3 +14,7 @@ class Person {
 
 let person1 = new Person('Shubham', 15);
 console.log(person1.greet());
+
+// Accessind public and private property
+console.log(`Name: ${person1.name}`);
+// console.log(`Age: ${person1.age}`);     // Error: Property 'age' is private and only accessible within class 'Person'.
