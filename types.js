@@ -1,0 +1,18 @@
+var myName = "Shubham";
+var myAge = 25;
+var isDeveloper = true;
+var score = [81, 86, 75];
+var hobbies = ['coding', 'gaming'];
+var biodata = [myName, myAge];
+console.log('myName:', myName);
+console.log('myAge:', myAge);
+console.log('isDeveloper:', isDeveloper);
+console.log('score:', score);
+console.log('hobbies:', hobbies);
+console.log('biodata:', biodata);
+var randomType = "hello";
+console.log('randomType:', randomType);
+randomType = 123;
+console.log('randomType:', randomType);
+randomType = true;
+console.log('randomType:', randomType);
