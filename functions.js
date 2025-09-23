@@ -15,3 +15,10 @@ function greet(name, age) {
 }
 console.log(greet('Shubham'));
 console.log(greet('Ayush', 22));
+// Function with default parameters
+function multiply(a, b) {
+    if (b === void 0) { b = 2; }
+    return a * b;
+}
+console.log(multiply(5));
+console.log(multiply(5, 3));
