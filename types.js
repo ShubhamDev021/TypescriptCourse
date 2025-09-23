@@ -24,3 +24,9 @@ value = "Hello";
 console.log("value: ".concat(value));
 value = 24;
 console.log("value: ".concat(value));
+// any type
+var data = "Hello";
+data = 123;
+console.log("data: ".concat(data));
+data = true;
+console.log("data: ".concat(data));

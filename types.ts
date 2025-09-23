@@ -28,3 +28,10 @@ value = "Hello";
 console.log(`value: ${value}`);
 value = 24;
 console.log(`value: ${value}`);
+
+// any type
+let data: any = "Hello";
+data = 123;
+console.log(`data: ${data}`);
+data = true;
+console.log(`data: ${data}`);
