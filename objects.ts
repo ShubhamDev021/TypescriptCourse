@@ -1,4 +1,4 @@
-import { User } from "./interfaces/interfaces";
+import { Product, User } from "./interfaces/interfaces";
 
 // Using interface in objects
 let user1: User = {
@@ -22,3 +22,15 @@ function printUser(user: User): void {
 
 printUser(user1);
 printUser(user2);
+
+// Cannot modify readonly properties
+let product1: Product = {
+    id: 1,
+    name: 'iPhone 16',
+    price: 52000,
+}
+console.log(`Id of ${product1.name} is ${product1.id}`);
+
+// Error: Cannot assign to 'id' because it is a read-only property
+// product1.id = 2;
+console.log(`New Id of ${product1.name} is ${product1.id}`);

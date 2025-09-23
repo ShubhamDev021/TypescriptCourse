@@ -18,3 +18,13 @@ function printUser(user) {
 }
 printUser(user1);
 printUser(user2);
+// Cannot modify readonly properties
+var product1 = {
+    id: 1,
+    name: 'iPhone 16',
+    price: 52000,
+};
+console.log("Id of ".concat(product1.name, " is ").concat(product1.id));
+// Error: Cannot assign to 'id' because it is a read-only property
+// product1.id = 2;
+console.log("New Id of ".concat(product1.name, " is ").concat(product1.id));
