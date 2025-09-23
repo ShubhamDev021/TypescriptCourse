@@ -1,3 +1,5 @@
+import { ID } from "./types/types";
+
 let myName: string = "Shubham";
 let myAge: number = 25;
 let isDeveloper: boolean = true;
@@ -21,7 +23,7 @@ randomType = true;
 console.log('randomType:', randomType);
 
 // Assigning multiple types to a variable or say Union types
-let value: string | number;
+let value: ID;
 value = "Hello";
 console.log(`value: ${value}`);
 value = 24;

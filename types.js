@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var myName = "Shubham";
 var myAge = 25;
 var isDeveloper = true;
@@ -16,7 +18,7 @@ randomType = 123;
 console.log('randomType:', randomType);
 randomType = true;
 console.log('randomType:', randomType);
-// assigning multiple types to a variable
+// Assigning multiple types to a variable or say Union types
 var value;
 value = "Hello";
 console.log("value: ".concat(value));
