@@ -1,11 +1,6 @@
 class Person {
-    public name: string;
-    private age: number;
-
-    constructor(name: string, age: number) {
-        this.name = name;
-        this.age = age;
-    }
+    // Shorthand constructor
+    constructor(public name: string, private age: number) {}
 
     greet() : string {
         return `Hi ${this.name}, i am ${this.age} years old`;

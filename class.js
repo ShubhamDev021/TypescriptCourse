@@ -1,4 +1,5 @@
 var Person = /** @class */ (function () {
+    // Shorthand constructor
     function Person(name, age) {
         this.name = name;
         this.age = age;
