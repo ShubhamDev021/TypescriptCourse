@@ -16,3 +16,9 @@ randomType = 123;
 console.log('randomType:', randomType);
 randomType = true;
 console.log('randomType:', randomType);
+// assigning multiple types to a variable
+var value;
+value = "Hello";
+console.log("value: ".concat(value));
+value = 24;
+console.log("value: ".concat(value));

@@ -19,3 +19,10 @@ console.log('randomType:', randomType);
 
 randomType = true;
 console.log('randomType:', randomType);
+
+// Assigning multiple types to a variable or say Union types
+let value: string | number;
+value = "Hello";
+console.log(`value: ${value}`);
+value = 24;
+console.log(`value: ${value}`);
