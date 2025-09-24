@@ -39,3 +39,5 @@ function checkStatus(status) {
 }
 checkStatus(Status.Active);
 checkStatus(Status.Inactive);
+var c = 1 /* Colors.Green */;
+console.log(c);

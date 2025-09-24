@@ -39,3 +39,14 @@ function checkStatus(status: Status): void {
 
 checkStatus(Status.Active);
 checkStatus(Status.Inactive);
+
+// Const Enums (Optimized for performance)
+// const enum values are inlined during compilation, making them faster.
+const enum Colors {
+  Red,
+  Green,
+  Blue
+}
+
+let c: Colors = Colors.Green;
+console.log(c);
