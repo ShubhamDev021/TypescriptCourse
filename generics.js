@@ -10,3 +10,9 @@ function getFirstElement(arr) {
 }
 console.log(getFirstElement(['apple', 'banana', 'grapes']));
 console.log(getFirstElement([5, 2, 3, 1]));
+var userResponse = {
+    data: { id: 1, name: "Shubham" },
+    status: 200
+};
+console.log("User ID: ".concat(userResponse.data.id));
+console.log("User Name: ".concat(userResponse.data.name));
