@@ -30,3 +30,6 @@ To execute it
 Generics allow you to create reusable components (functions, classes, interfaces) that work with different data types without losing type safety.
 
 Think of them as placeholders for types.
+
+## What are Enums?
+Enums let you define a set of named constants. They make your code more readable and maintainable.
