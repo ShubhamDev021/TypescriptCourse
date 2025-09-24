@@ -16,3 +16,17 @@ var userResponse = {
 };
 console.log("User ID: ".concat(userResponse.data.id));
 console.log("User Name: ".concat(userResponse.data.name));
+// Generic class
+var Box = /** @class */ (function () {
+    function Box(contents) {
+        this.contents = contents;
+    }
+    Box.prototype.getContents = function () {
+        return this.contents;
+    };
+    return Box;
+}());
+var numberBox = new Box(100);
+console.log(numberBox.getContents());
+var stringBox = new Box("Hello");
+console.log(stringBox.getContents());

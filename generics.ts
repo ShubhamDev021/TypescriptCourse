@@ -26,3 +26,18 @@ const userResponse: ApiResponse<{ id: number; name: string }> = {
 
 console.log(`User ID: ${userResponse.data.id}`);
 console.log(`User Name: ${userResponse.data.name}`);
+
+// Generic class
+class Box<T> {
+  constructor(public contents: T) {}
+
+  getContents(): T {
+    return this.contents;
+  }
+}
+
+const numberBox = new Box<number>(100);
+console.log(numberBox.getContents());
+
+const stringBox = new Box<string>("Hello");
+console.log(stringBox.getContents());
