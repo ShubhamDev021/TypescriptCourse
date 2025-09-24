@@ -17,3 +17,13 @@ enum Status {
 console.log(`Active: ${Status.Active}`)
 console.log(`Inactive: ${Status.Inactive}`)
 console.log(`Pending: ${Status.Pending}`)
+
+// String enum
+enum Roles {
+    Admin = "ADMIN",
+    User = "USER",
+    Guest = "GUEST",
+}
+console.log(`Admin: ${Roles.Admin}`);
+console.log(`User: ${Roles.User}`);
+console.log(`Guest: ${Roles.Guest}`);

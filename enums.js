@@ -18,3 +18,13 @@ var Status;
 console.log("Active: ".concat(Status.Active));
 console.log("Inactive: ".concat(Status.Inactive));
 console.log("Pending: ".concat(Status.Pending));
+// String enum
+var Roles;
+(function (Roles) {
+    Roles["Admin"] = "ADMIN";
+    Roles["User"] = "USER";
+    Roles["Guest"] = "GUEST";
+})(Roles || (Roles = {}));
+console.log("Admin: ".concat(Roles.Admin));
+console.log("User: ".concat(Roles.User));
+console.log("Guest: ".concat(Roles.Guest));
