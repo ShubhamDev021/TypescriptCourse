@@ -28,3 +28,14 @@ var Roles;
 console.log("Admin: ".concat(Roles.Admin));
 console.log("User: ".concat(Roles.User));
 console.log("Guest: ".concat(Roles.Guest));
+// Enum in function
+function checkStatus(status) {
+    if (status === Status.Active) {
+        console.log("User is Active");
+    }
+    else {
+        console.log("User is Not Active");
+    }
+}
+checkStatus(Status.Active);
+checkStatus(Status.Inactive);

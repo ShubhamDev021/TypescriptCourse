@@ -27,3 +27,15 @@ enum Roles {
 console.log(`Admin: ${Roles.Admin}`);
 console.log(`User: ${Roles.User}`);
 console.log(`Guest: ${Roles.Guest}`);
+
+// Enum in function
+function checkStatus(status: Status): void {
+  if (status === Status.Active) {
+    console.log("User is Active");
+  } else {
+    console.log("User is Not Active");
+  }
+}
+
+checkStatus(Status.Active);
+checkStatus(Status.Inactive);
